@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+}
+
+.banner {
+    background-image:linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.98) 20%,hsla(0,0%,9%,.97) 25%,hsla(0,0%,9%,.95) 35%,hsla(0,0%,9%,.94) 40%,hsla(0,0%,9%,.92) 45%,hsla(0,0%,9%,.9) 50%,hsla(0,0%,9%,.87) 55%,hsla(0,0%,9%,.82) 60%,hsla(0,0%,9%,.75) 65%,hsla(0,0%,9%,.63) 70%,hsla(0,0%,9%,.45) 75%,hsla(0,0%,9%,.27) 80%,hsla(0,0%,9%,.15) 85%,hsla(0,0%,9%,.08) 90%,hsla(0,0%,9%,.03) 95%,hsla(0,0%,9%,0)), url(images/jpg/WELCOME\ TO\ SANDAL-RI.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+}
+
+.banner .banner-content {
+    padding: 20% 15%;
+}
+
+.banner .banner-content .banner-title h1 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    letter-spacing: 2px;
+    margin: 50px 0px 5px -120px;
+}
+.span2{
+    display: flex;
+}
+.banner .banner-content .banner-title .span2 p{
+   margin-left: 1%;
+  margin-top: -20px;
+}
+.banner .banner-content .banner-title p {
+    max-width: 460px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    padding: 2% 0%;
+    margin: 0px 0px 0px -120px;
+}
+
+.banner .banner-content .banner-buttons .play {
+    padding: 1% 2%;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background-color: #222;
+    font-weight: 700;
+    font-size: 1.5rem;
+    transition: 0.5s;
+}
+
+.banner .banner-content .banner-buttons .play:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.banner .banner-content .banner-buttons .info {
+    padding: 1% 2%;
+    border-radius: 5px;
+    border: none;
+    color: #333;
+    background-color: #fff;
+    font-weight: 700;
+    font-size: 1.5rem;
+    transition: 0.5s;
+}
+
+.banner .banner-content .banner-buttons .info:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+section .posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin: 2% 2%;
+}
+
+section .posters::-webkit-scrollbar {
+    display: none;
+}
+
+section h1 {
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font: weight 600;
+    padding: 2% 1%;
+}
+
+section .posters .posters-title {
+    margin: 0% 1%;
+    transition: transform 420ms;
+}
+
+section .posters .posters-title h3 {
+    color: #ffff;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 2% 0%;
+}
+
+section .posters .posters-title:hover {
+    transform: scale(1.09);
+}
+
+nav .logo {
+    width: 150px;
+    object-fit: contain;
+    margin: -40px 0px 0px 5px;
+
+}
+
+nav .profile {
+    width: 50px;
+    object-fit: contain;
+    border-radius: 50%;
+    border: 4px solid cornsilk;
+    height: 50px;
+    max-width: 80%;
+    margin: 2% 3%;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+}
+
+footer {
+    padding: 2% 2%;
+   
+    color: #777;
+}
+
+footer .row {
+    display: flex;
+    align-items: flex-start;
+    padding: 1% 2%;
+
+}
+
+footer .col a {
+    color: #777;
+    font-size: x-large;
+    font-weight: 100;
+    display: block;
+
+}
+
+footer .col {
+    margin: 1% 2%;
+}
+
+.lang {
+    background-color: transparent;
+    border-radius: 4px;
+    border: 3px solid #777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 1em;
+    color: #777;
+    padding: 10px 13px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+footer p {
+    color: #777;
+    padding: 10px 70px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer h1 {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    padding: 2% 4%;
+}
+
+footer .col a {
+    text-decoration: none;
+    color: #777;
+    font-size: 1rem;
+    display: block;
+    padding: 10px;
+}
+
+.banner .container1-title img {
+    width: 70px;
+    height: 65px;
+    margin-bottom: 100%;
+    padding: 10px 1px 5px 20px;
+}
+
+.banner .banner-content .banner-title img {
+    width: 50%;
+    height: 100px;
+    margin: -200px 0px 5px -120px;
+
+
+}
+
+.container1 .container1-title {
+    box-shadow: 8px 5px 16px 0 rgba(0, 0, 0, .37);
+    width: 100%;
+    display: flex;
+    max-width: 100%;
+    margin-top: 1rem;
+    background-image: linear-gradient(90deg, #333 5%, #181818 95%);
+    height: 70px;
+    box-shadow: 8px 5px 16px 0 rgba(0, 0, 0, .37);
+    justify-content: space-between;
+
+}
+
+.container1 .container1-title p {
+    color: #fff;
+    font-weight: 500;
+    margin: 30px 0px 5px -770px;
+    font-size: large;
+}
+
+.banner .banner-content .container1 .button1 .join {
+    color: #fff;
+    background-color: red;
+    font-size: 0.9rem;
+    font-weight: 200;
+    padding: 3% 0% 3% 4%;
+    margin-top: 17px;
+    margin-right: 15px;
+    cursor: pointer;
+    width: 150px;
+    height: 35px;
+    border-radius: 5PX;
+}
+
+.container1 {
+    width: 130%;
+    margin-left: -120px;
+    margin-top: 20px;
+}
+
+span {
+    color: #777;
+    margin-left: -120px;
+
+}
+
